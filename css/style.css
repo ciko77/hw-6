@@ -34,7 +34,8 @@ li{ font-size: 24px;
     height: 56px;
     border: 3px solid #758BFD;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    border-radius: 10px;
 }
 
     .fa-magnifying-glass{
@@ -48,4 +49,34 @@ li{ font-size: 24px;
        align-items: center;
         
       }
+      /* section */
+      section{
+        width: 1400px;
+        height: 1052px;
+        background-color: #DDEAF8;
+        padding: 115px 98px 115px 98px;
+
+      }
+
+      h2{
+        width: 700px;
+        font-size: 32px;
+        color: #27187F;
+      }
+      .card{
+        width: 100%;
+        /* height: 822px; */
+        /* background-color: blueviolet; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 51px;
+        column-gap: 22px;
+        margin-top: 68px;
+      }
+      .card img{
+        width: 30%;
+
+      }
+
       
